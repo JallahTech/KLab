@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.wrapper{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    /* display: flex; */
+}
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.blue{
+    background-color: rgb(66, 105, 211);
+    height: 100%;
+    width: 50%;
+}
+.lightgreen{
+    background-color: rgb(228, 228, 228);
+    height: 100%;
+    width: 50%;
+}
+.toplayer{
+    background-color: aliceblue;
+    height: 85%;
+    width: 90%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 5%;
+    top: 7.5%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.welcome{
+    /* background-color: black; */
+    height: 100%;
+    width: 50%;
+    padding-left: 15px;
+}
+.signup{
+    /* background-color: brown; */
+    height: 100%;
+    width: 50%;
+}
+.holder{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(0, 119, 255);
+    border-radius: 50%;
+    margin-left: 20%;
+    margin-top: 6%;
+}
+.squares{
+    height: 80%;
+    width: 110%;
+    background-color: rgba(255, 255, 255, 0.356);
+    position: relative;
+    top:7.5% ;
+    left: -5%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+   
+}
+.hold{
+    width: 100%;
+    height: 90%;
+    padding-bottom: 5%;
+   
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    background-image: url('statistics.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bottomu{
+    height: 20%;
+    width: 60%;
+    margin-left: 15%;
+    margin-top: 7%;
+    text-align: center;
+}
+.bottomu label{
+    color: darkgrey;
+    font-weight: 500;
+}
+.smalls{
+    width: 100%;
+    height: 30%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+.row{
+    width: 28%;
+    height: 12%;
+    background-color: rgb(187, 186, 186);
+    margin-top: 5%;
+    border-radius: 20px;
+}
+.form{
+    height: 80%;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 12px;
+}
+.header{
+    background-color: aliceblue;
+    width: 50%;
+    margin-left: 30%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.header label{
+    font-weight: bolder;
+    font-size: 18px;
+}
+.header small{
+    font-size: 16px;
+}
+.fields{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.fields label{
+font-size: 16px ;
+color: rgb(41, 41, 41);
+}
+.fields input[type=text]{
+height: 30px;
+width: 80%;
+margin: 2% 0 2% 0;
+border-radius: 10px;
+outline: 1px solid rgba(211, 211, 211, 0.301);
+border: none;
+padding-left: 12px;
+}
+.fields input[type=button]{
+    height: 40px;
+width: 70%;
+margin: 3% 0 3% 0%;
+border-radius: 10px;
+outline: none;
+border: none;
+font-weight: bold;
+background-color: rgb(20, 87, 233);
+color: white;
+
+}
+.fields small{
+    text-align: center;
+}
+.icons{
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.icons ul{
+    list-style: none;
+}
+.icons ul li{
+    display: inline;
+    margin-right: 8%;
+}
+.icons ul li svg{
+    height: 27px;
+}
